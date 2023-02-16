@@ -1,5 +1,4 @@
 import React from 'react'
-import PublicIP from './PublicIP'
 
 const Exhibit = (props) => {
   return (
@@ -8,7 +7,7 @@ const Exhibit = (props) => {
             <div className="box">
                 <div className="content">
                     <h2 className="cardTitle">{props.name}</h2>
-                    {props.type === "IP" && <PublicIP IP_type={props.name}/> }
+                    {props.children}
                 </div>
             </div>
         </div>
