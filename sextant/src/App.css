@@ -43,7 +43,7 @@
 
 .card {
   position: relative;
-  min-width: 320px;
+  min-width: 400px;
   height: 440px;
   box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
     inset -5px -5px 15px rgba(255, 255, 255, 0.1),
@@ -96,10 +96,14 @@
   margin-bottom: 15px;
 }
 
-.cardInfo {
-  font-size: 1rem;
-  font-weight: 300;
-  color: rgba(255, 255, 255, 0.9);
-  z-index: 1;
-  transition: 0.5s;
+.ipInfo {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  background: black;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+  background: #2196f3;
 }

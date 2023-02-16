@@ -1,14 +1,15 @@
-import './App.css';
-import Banner from './components/Banner';
-import Exhibit from './components/Exhibit';
+import "./App.css";
+import Banner from "./components/Banner";
+import Exhibit from "./components/Exhibit";
 
 function App() {
   return (
     <div className="App">
-      <Banner />
+      <Banner title={"Sextant"} />
       <div className="exhibits">
-        <Exhibit name={"IP"} info={"ip address"}/>
-        <Exhibit name={"Latency"} info={"latency information"}/>
+        <Exhibit name={"IPv4"} type={"IP"} />
+        <Exhibit name={"IPv6"} type={"IP"} />
+        <Exhibit name={"Latency"} type={"latency"} />
       </div>
     </div>
   );
