@@ -15,7 +15,7 @@ function App() {
         <Exhibit name={"IPv6 Address"}> 
           <PublicIP IP_type={"IPv6"}/>
         </Exhibit>
-        <Exhibit name={"Latency"}> 
+        <Exhibit name={"Packet Latency"}> 
           <Latency />
         </Exhibit>
       </div>
